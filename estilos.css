@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+
+.acordeon{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.acordeon__opcion{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #6122F9;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.acordeon__opcion:hover, .active{
+    background-color: #3904B7;
+}
+
+
+.acordeon__text{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0CF7D8;
+}
+
+.acordeon__icon{
+    color: #0CF7D8;
+}
+
+.acordeon__panel{
+    padding: 20px;
+    background: #F4F6F6;
+}
