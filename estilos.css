@@ -1,8 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Popins", sans-serif;
+    font-family: "Popins", sans-serif;    
 }
 
 .acordeon{
@@ -23,7 +24,6 @@
     background-color: #3904B7;
 }
 
-
 .acordeon__text{
     text-decoration: none;
     font-weight: 600;
@@ -36,5 +36,5 @@
 
 .acordeon__panel{
     padding: 20px;
-    background: #F4F6F6;
+    background-color: #F4F6F6;
 }
