@@ -37,7 +37,16 @@
 .acordeon__panel{
     padding: 20px;
     background-color: #F4F6F6;
+    display: none;
 }
+
+
+
+
+
+
+
+
 
 /* Para JS */
 
